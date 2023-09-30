@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
     });
 });
 
-jQuery(document).ready(function() {
+jQuery$(document).ready(function() {
     $('.image-carousel').slick({
       dots: true,
       infinite: true,
