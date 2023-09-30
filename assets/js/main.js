@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
     });
 });
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     $('.image-carousel').slick({
       dots: true,
       infinite: true,
@@ -29,3 +29,5 @@ $(document).ready(function() {
       autoplaySpeed: 3000
     });
   });
+
+
