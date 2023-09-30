@@ -30,7 +30,7 @@
 
   .image-carousel-container {
     display: flex;
-    justify-content: right; /* Centra horizontalmente */
-    align-items: right; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: top; /* Centra verticalmente */
     height: 100vh; /* Esto hace que el carrusel ocupe toda la altura de la ventana */
   }
