@@ -30,7 +30,20 @@
 
   .image-carousel-container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: top; /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
     height: 100vh; /* Esto hace que el carrusel ocupe toda la altura de la ventana */
   }
+  
+  .image-carousel {
+    /* Ajusta el ancho del carrusel para ocupar todo el ancho de la página */
+    width: 100%;
+    max-width: 100%; /* Asegura que no sea más ancho que la ventana */
+    text-align: center; /* Centra el contenido del carrusel */
+  }
+  
+  .image-container {
+    /* Ajusta el ancho máximo de las imágenes para evitar que se vean más grandes */
+    max-width: 100%; /* Esto asegura que las imágenes no se vean más grandes que el carrusel */
+  }
+  
