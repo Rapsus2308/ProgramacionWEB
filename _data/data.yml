@@ -30,7 +30,7 @@ sidebar:
         - idiom: Español
           level: Nativo
         - idiom: Ingles
-          level: 40%
+          level: 50%
 
 
     interests:
@@ -42,7 +42,7 @@ sidebar:
         - item: videojuegos
           link:
 
-        - item: Desarrollo web
+        - item: Cibersecurity
           link:
 
 career-profile:
@@ -69,9 +69,9 @@ experiences:
     title: Experiencia
     info:
       - role: Ingeniero en pruebas de laboratorio
-        time: 2021 - actualidad
+        time: 2021 - today
         company: Hemac Teleinformatica s.a de c.v
-        details: 
+        details: |
           Realizo verifiacion de equipos de red y radiofrecuencias
           -Pruebas de funcionamiento.
           -Documentacion de procedimientos
