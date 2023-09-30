@@ -27,3 +27,10 @@
   .next-button {
     right: 10px;
   }
+
+  .image-carousel-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Esto hace que el carrusel ocupe toda la altura de la ventana */
+  }
