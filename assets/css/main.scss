@@ -1,3 +1,20 @@
+
+@charset "utf-8";
+
+
+// define variable with front matter
+{% if site.data.data.sidebar.position == 'left' %}
+$resume-order: 2;
+$sidebar-order: 1;
+{% else %}
+$resume-order: 1;
+$sidebar-order: 2;
+{% endif %}
+
+@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
+@import "default"; // main partials
+
+
 .image-carousel {
     position: relative;
   }
@@ -28,19 +45,3 @@
     right: 10px;
   }
   
-@charset "utf-8";
-
-
-// define variable with front matter
-{% if site.data.data.sidebar.position == 'left' %}
-$resume-order: 2;
-$sidebar-order: 1;
-{% else %}
-$resume-order: 1;
-$sidebar-order: 2;
-{% endif %}
-
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-@import "default"; // main partials
-
-
