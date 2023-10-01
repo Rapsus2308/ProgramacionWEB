@@ -39,7 +39,7 @@
     /* Ajusta el ancho del carrusel para ocupar todo el ancho de la página */
     width: 100%;
     max-width: 100%; /* Asegura que no sea más ancho que la ventana */
-    text-align: center; /* Centra el contenido del carrusel */
+    text-align: left; /* Centra el contenido del carrusel */
   }
   
   .image-container {
